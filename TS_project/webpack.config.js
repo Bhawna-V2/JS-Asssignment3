@@ -5,7 +5,7 @@ module.exports = {
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname,'dist'),   // Root dir remove from tsconfig
-        //publicPath: 'dist'
+        publicPath: 'dist'
     },
     devtool: 'inline-source-map',
     resolve: {extensions:['.ts','.js']},
